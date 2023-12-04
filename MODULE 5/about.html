@@ -37,12 +37,16 @@
         </div>
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="active">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li id="navHomeButton" class="visible-xs active">
+             <a href="index.html">
+               <span class="glyphicon glyphicon-home"></span> Home</a>
+            
+               <li>
               <a href="menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
-            <li>
+            <li class="active">
               <a href="about.html">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
@@ -60,94 +64,67 @@
     </nav><!-- #header-nav -->
   </header>
 
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
-    </a>
-  </div>
-  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+  <div id="about-view" class="container ng-scope">
+<h2 class="text-center">About This Website</h2>
+<div class="text-center" >
+  <p>
+    It may be hard to tell, but this website does much more than just help you choose a delicious dish from this cozy
+      little restaurant. The website of this restaurant has served over 100,000 students all over the world (and counting), teaching them
+      the skills of how to develop a website from scratch.
+  </p>
+  <p>
+    The development of this website was part of the curriculum of 2
+    <a target="_blank" href="https://www.coursera.org">Coursera.org</a>
+    courses: 
+    <a target="_blank" href="https://www.coursera.org/learn/html-css-javascript-for-web-developers">HTML,
+       CSS, and Javascript for Web Developers</a> and 
+    <a target="_blank" href="https://www.coursera.org/learn/single-page-web-apps-with-angularjs">
+      Single Page Web Applications with AngularJS</a>
+    <br>
+    All courses have an option to be taken for free.
+    </p>
+    <p>
+    As of November 2016, both courses made it to the #1 Top Rated Course spot
+     (among close to 1,800 available courses).
+    </p>
+    <p>
+    To give you a little preview, here is a video from one of the courses:
+    </p>
+    <p>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YR rIjUIDEE?rel=0" 
+      allowfullscreen>
+       </iframe> 
+       </div>
+      </p>
 
-  <div id="main-content" class="container">
-    <h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
-    <div class="text-center">
-      Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
-    </div>
-
-    <section class="row">
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-    </section>
+       <p>
+       The courses and this site were not the labor of just one person. We owe a debt of gratitude to:
+       </p>
+       <ul>
+       <li>
+       <a target="_blank" href="http://storywithlight.com">Moshe Chaikin</a>
+       of <a target="_blank" href="http://storywithlight.com">StoryWithLight.com</a>
+       who not only filmed and produced the Field Trip video (featured above), but also 
+       provided food photography so the users of the site can see a picture of each dish.
+       </li>
+       <li>
+       <a target="_blank" href="https://www.coursera.org/instructor/kalman-hazins">Kalman Hazins,</a>
+        who coded the backend service for this website.
+       </li>
+       <li>
+       Finally, the owners of David Chu's China Bistro restaurant graciously agreed
+        to assist us in this project.
+       </li>
+       </ul>
+       <p></p>
+       <p class="aside">
+        "* The final implementation of this site is done in AngularJS. 
+        If you would like the see the version of this site without the Angular framework, 
+        click <a target="_blank" href="https://jhu-ep-coursera.github.io/fullstack-course4/examples/Lecture63/after">here</a>
+        </p>
+        </div>
+</div>
 
   </div><!-- End of #main-content -->
 
